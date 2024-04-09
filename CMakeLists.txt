@@ -78,3 +78,20 @@ target_link_libraries(medley_floyd-warshall polybench)
 add_executable(medley_nussinov medley/nussinov/nussinov.c)
 target_link_libraries(medley_nussinov polybench)
 
+add_executable(stencils_adi stencils/adi/adi.c)
+target_link_libraries(stencils_adi polybench)
+
+add_executable(stencils_fdtd-2d stencils/fdtd-2d/fdtd-2d.c)
+target_link_libraries(stencils_fdtd-2d polybench)
+
+add_executable(stencils_heat-3d stencils/heat-3d/heat-3d.c)
+target_link_libraries(stencils_heat-3d polybench)
+
+add_executable(stencils_jacobi-1d stencils/jacobi-1d/jacobi-1d.c)
+target_link_libraries(stencils_jacobi-1d polybench)
+
+add_executable(stencils_jacobi-2d stencils/jacobi-2d/jacobi-2d.c)
+target_link_libraries(stencils_jacobi-2d polybench)
+
+add_executable(stencils_seidel-2d stencils/seidel-2d/seidel-2d.c)
+target_link_libraries(stencils_seidel-2d polybench)
